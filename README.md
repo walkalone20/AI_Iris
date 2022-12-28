@@ -8,7 +8,7 @@
 
 $$
 w_j \leftarrow \beta w_j - \dfrac{\alpha}{m} \sum_{i=1}^m (\vec{w} \cdot \vec{x_i}+b-y_i)x_{i,j}\\
-b \leftarrow \beta w_j - \dfrac{\alpha}{m} \sum_{i=1}^m (\vec{w} \cdot \vec{x_i}+b-y_i)\\
+b \leftarrow \beta w_j - \dfrac{\alpha}{m} \sum_{i=1}^m (\vec{w} \cdot \vec{x_i}+b-y_i)
 $$
 
 参数 $\beta=0.99999$，学习率为 $\alpha=0.003$，误差精度 $\epsilon=10^{-8}$。
